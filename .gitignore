@@ -1,0 +1,56 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Vector store (large binary files, regenerate locally)
+vectorstore/
+*.pkl
+*.faiss
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Temp PDF files created during upload
+temp_*.pdf
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/secrets.toml
+
+# HuggingFace model cache (large, re-downloads automatically)
+.cache/
