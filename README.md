@@ -137,10 +137,4 @@ python-dotenv>=1.0.0
 google-genai>=1.0.0
 streamlit>=1.35.0
 tiktoken>=0.7.0
-```
 
----
-
-
-
----
